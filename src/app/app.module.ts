@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { PrimengModule } from 'src/app/primeng/primeng.module';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +18,7 @@ import { TopNavbarComponent } from './components/top-navbar/top-navbar.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     PrimengModule
   ],
   providers: [],

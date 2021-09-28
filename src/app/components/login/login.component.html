@@ -1,1 +1,9 @@
-<p>login works!</p>
+<span class="p-float-label">
+    <input id="float-input" type="text" [(ngModel)]="user" pInputText> 
+    <label for="float-input">Usuario</label>
+</span>
+
+<span class="p-float-label">
+    <p-password [toggleMask]="true" [(ngModel)]="psw"></p-password>
+    <label for="float-input">Contraseña</label>
+</span>
