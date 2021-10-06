@@ -5,6 +5,7 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { PasswordModule } from 'primeng/password';
+import { CardModule } from 'primeng/card';
 
 @NgModule({
     declarations: [],
@@ -13,13 +14,15 @@ import { PasswordModule } from 'primeng/password';
         ButtonModule,
         ToolbarModule,
         InputTextModule,
-        PasswordModule
+        PasswordModule,
+        CardModule
     ],
     exports: [
         ButtonModule,
         ToolbarModule,
         InputTextModule,
-        PasswordModule
+        PasswordModule,
+        CardModule
     ],
     providers: [],
 })

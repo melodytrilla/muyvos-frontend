@@ -1,9 +1,18 @@
-<span class="p-float-label">
-    <input id="float-input" type="text" [(ngModel)]="user" pInputText> 
-    <label for="float-input">Usuario</label>
-</span>
+<p-card>
+    <div class="container">
+        <span class="p-float-label">
+            <input id="float-input" type="text" [(ngModel)]="user" pInputText> 
+            <label for="float-input">Usuario</label>
+        </span>
+        
+        <span class="p-float-label">
+            <p-password [toggleMask]="true" [(ngModel)]="psw"></p-password>
+            <label for="float-input">Contraseña</label>
+        </span>
+    </div>
+    <ng-template pTemplate="footer">
+        <button pButton type="button" label="Iniciar sesión" ></button>
+    </ng-template>
+</p-card>
 
-<span class="p-float-label">
-    <p-password [toggleMask]="true" [(ngModel)]="psw"></p-password>
-    <label for="float-input">Contraseña</label>
-</span>
+
