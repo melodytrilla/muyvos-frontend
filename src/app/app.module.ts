@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { PrimengModule } from 'src/app/primeng/primeng.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
@@ -19,6 +20,7 @@ import { TopNavbarComponent } from './components/top-navbar/top-navbar.component
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     FormsModule,
     PrimengModule
   ],

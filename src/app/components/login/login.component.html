@@ -6,12 +6,13 @@
         </span>
         
         <span class="p-float-label">
-            <p-password [toggleMask]="true" [(ngModel)]="psw"></p-password>
+            <p-password [toggleMask]="true" [feedback]="false" [(ngModel)]="psw"></p-password>
             <label for="float-input">Contraseña</label>
         </span>
     </div>
     <ng-template pTemplate="footer">
-        <button pButton type="button" label="Iniciar sesión" ></button>
+        <p class="alert"><span *ngIf="showAlert">Usuario y/o contraseña incorrectos</span></p>
+        <button pButton type="button" label="Iniciar sesión" (click)="login()"></button>
     </ng-template>
 </p-card>
 

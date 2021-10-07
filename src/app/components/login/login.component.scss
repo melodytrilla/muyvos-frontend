@@ -1,8 +1,17 @@
+@import 'muyvos-colors';
+
 .container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2em;
     justify-content: center;
+}
+
+.alert {
+    margin: 1em 0em;
+    font-size: 12px;
+    color: $red;
+    height: 10px;
 }
 
 :host ::ng-deep {
@@ -14,6 +23,7 @@
         margin: auto;
         .p-card-footer{
             text-align: center;
+            padding: 0px;
         }
     }
 }
