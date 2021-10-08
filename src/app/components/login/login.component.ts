@@ -31,6 +31,7 @@ export class LoginComponent implements OnInit {
     this.usersList.forEach(user => {
       if (user.usuario === this.user && user.contraseña === this.psw) {
         this.showAlert = false;
+        this.loginService.loggedIn = true;
         this.router.navigateByUrl('');
       } else this.showAlert = true;
     })

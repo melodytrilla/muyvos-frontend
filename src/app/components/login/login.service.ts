@@ -12,6 +12,8 @@ export class LoginService {
   urlBase: string;
   httpOptions: {};
 
+  loggedIn: boolean = false;
+
   constructor(
     private http: HttpClient
   ) { 
