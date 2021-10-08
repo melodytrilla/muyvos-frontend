@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import 'muyvos-colors';
+
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 6em;
+    color: $title;
+    text-align: center;
+    margin: 0.2em;
+}
+
+:host ::ng-deep {
+    .p-toolbar {
+        padding: 0.3em 0.5em;
+    }
+}

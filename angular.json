@@ -38,8 +38,14 @@
               "node_modules/primeng/resources/themes/bootstrap4-light-purple/theme.css",
               "src/styles.scss",
               "node_modules/primeflex/primeflex.css",
-              "node_modules/font-awesome/css/font-awesome.css"
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/primeicons/primeicons.css"
             ],
+            "stylePreprocessorOptions": {
+							"includePaths": [
+							  "src/assets/scss"
+							]
+						},
             "scripts": []
           },
           "configurations": {
@@ -110,8 +116,14 @@
               "node_modules/primeng/resources/primeng.min.css",
               "src/styles.scss",
               "node_modules/primeflex/primeflex.css",
-              "node_modules/font-awesome/css/font-awesome.css"
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/primeicons/primeicons.css"
             ],
+            "stylePreprocessorOptions": {
+							"includePaths": [
+							  "src/assets/scss"
+							]
+						},
             "scripts": []
           }
         }

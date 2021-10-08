@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'muyvos-colors';
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    background-color: $background;
+}
